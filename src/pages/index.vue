@@ -1,6 +1,14 @@
 <script setup lang="ts">
-await navigateTo('/sample');
+useHead({
+  title: 'How To Component Test Sample',
+  meta: [
+    {
+      name: 'description',
+      content: 'NuxtとVitestを使用したコンポーネントのテストサンプルです。',
+    },
+  ],
+});
 </script>
 <template>
-  <p>Redirecting...</p>
+  <div>Sample</div>
 </template>
